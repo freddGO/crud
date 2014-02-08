@@ -6,11 +6,8 @@ public interface UserDao extends GenericDao<User, Long> {
 
 
 	/*
-	 * Insert and Update operations are combined into a single operation (e.g. Store)
-	 * This is to let the ORM framework (not you) decide whether an object should be 
-	 * inserted or updated.
 	 * 
-	 * Here we can write the USER's behavior.
+	 * Here we can write FUTURE USER's behavior or actions. EXAMPLE validate credential or something like that
 	 * 
 	 */
 	
